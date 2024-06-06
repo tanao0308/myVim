@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/root/.vim'
+let g:netrw_dirhist_0='/root/Github/myPrograms/LearnBE/SQL'
+let g:netrw_dirhist_9='/root/Github/myPrograms'
+let g:netrw_dirhist_8='/root/Github/myPrograms/3D-Reconstruction/rgbd_dataset_freiburg1_xyz/depth'
+let g:netrw_dirhist_7='/root/.cache'
+let g:netrw_dirhist_6='/root/Github/myPrograms/LearnBE/C++'
+let g:netrw_dirhist_5='/root/Github/myPrograms/LearnBE/OS'
+let g:netrw_dirhist_4='/root/UniClass'
+let g:netrw_dirhist_3='/proc/100/fdinfo'
+let g:netrw_dirhist_2='/proc/100/fd'
