@@ -21,11 +21,17 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1719081819,,"q"
+|2,0,1719111433,,"q"
 :wq
-|2,0,1719081770,,"wq"
+|2,0,1719111357,,"wq"
 :w
-|2,0,1719081284,,"w"
+|2,0,1719111309,,"w"
+:source ~/.vim/vimrc
+|2,0,1719082057,,"source ~/.vim/vimrc"
+:!trash-put 命令移动时的宽度为
+|2,0,1719109103,,"!trash-put 命令移动时的宽度为"
+:call ToggleNERDTree()
+|2,0,1719108708,,"call ToggleNERDTree()"
 :n
 |2,0,1719080360,,"n"
 :nb
@@ -38,8 +44,6 @@ $
 |2,0,1719079939,,"Q"
 :PlugInstall
 |2,0,1719079811,,"PlugInstall"
-:source ~/.vim/vimrc
-|2,0,1719079803,,"source ~/.vim/vimrc"
 :%s/\t/    /g
 |2,0,1719067599,,"%s/\\t/    /g"
 :q!
@@ -116,12 +120,10 @@ $
 |2,0,1719064996,,"colorscheme molokai"
 :colorscheme desert
 |2,0,1719064989,,"colorscheme desert"
-:colorscheme default
-|2,0,1719064983,,"colorscheme default"
-:colorscheme darkblue
-|2,0,1719064977,,"colorscheme darkblue"
 
 # Search String History (newest to oldest):
+?/asdas
+|2,1,1719110281,47,"asdas"
 ?/\t
 |2,1,1719080932,47,"\\t"
 ?/PATH
@@ -220,8 +222,6 @@ $
 |2,1,1718281000,47,"bpm_"
 ? guard_.bpm_ != nullptr
 |2,1,1718280957,,"guard_.bpm_ != nullptr"
-?/RL
-|2,1,1718278988,47,"RL"
 
 # Expression History (newest to oldest):
 
@@ -230,375 +230,434 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	  // LOG_DEBUG("PageId: %d, PinCount: %d", (guard_.page_ == nullptr ? -1 : PageId()),
-	  //            (guard_.page_ == nullptr ? -1 : guard_.page_->GetPinCount()));
-|3,0,0,1,2,0,1718983069,"  // LOG_DEBUG(\"PageId: %d, PinCount: %d\", (guard_.page_ == nullptr ? -1 : PageId()),","  //            (guard_.page_ == nullptr ? -1 : guard_.page_->GetPinCount()));"
-""1	LINE	0
-	set formatoptions-=r
-|3,1,1,1,1,0,1719081769,"set formatoptions-=r"
-"2	LINE	0
-	"
-|3,0,2,1,1,0,1719081737,"\""
-"3	LINE	0
-	set nocomplete
+"0	CHAR	0
 	
-|3,0,3,1,2,0,1719081634,"set nocomplete",""
+	set smartindent
+	
+	
+|3,0,0,0,4,0,1719110525,"","set smartindent","",""
+""1	LINE	0
+	
+|3,1,1,1,1,0,1719110679,""
+"2	LINE	0
+	set paste " 设置复制语法为原文粘贴
+|3,0,2,1,1,0,1719110673,"set paste \" 设置复制语法为原文粘贴"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1719110664,""
 "4	LINE	0
-	let g:NERDCreateDefaultMappings = 1
-|3,0,4,1,1,0,1719081580,"let g:NERDCreateDefaultMappings = 1"
+	
+	set expandtab
+|3,0,4,1,2,0,1719110663,"","set expandtab"
 "5	LINE	0
 	
-|3,0,5,1,1,0,1719080690,""
+|3,0,5,1,1,0,1719110661,""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1719080689,""
+	set expandtab
+|3,0,6,1,2,0,1719110660,"","set expandtab"
 "7	LINE	0
 	
-|3,0,7,1,1,0,1719076623,""
+|3,0,7,1,1,0,1719110641,""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1719076593,""
+	set expandtab
+|3,0,8,1,2,0,1719110640,"","set expandtab"
 "9	LINE	0
-	# <<< java <<<
-|3,0,9,1,1,0,1719076588,"# <<< java <<<"
+	
+|3,0,9,1,1,0,1719110598,""
 "q	CHAR	0
 	
 |3,0,26,0,1,0,1718986649,""
 "-	CHAR	0
-	k
-|3,0,36,0,1,0,1719065109,"k"
+	d
+|3,0,36,0,1,0,1719108608,"d"
 
 # File marks:
-'0  1  0  ~/.vim/vimrc
-|4,48,1,0,1719081819,"~/.vim/vimrc"
-'1  62  16  ~/.vim/vimrc
-|4,49,62,16,1719081778,"~/.vim/vimrc"
-'2  62  16  ~/.vim/vimrc
-|4,50,62,16,1719081778,"~/.vim/vimrc"
-'3  49  0  ~/.vim/vimrc
-|4,51,49,0,1719081770,"~/.vim/vimrc"
-'4  49  0  ~/.vim/vimrc
-|4,52,49,0,1719081770,"~/.vim/vimrc"
-'5  49  0  ~/.vim/vimrc
-|4,53,49,0,1719081770,"~/.vim/vimrc"
-'6  49  0  ~/.vim/vimrc
-|4,54,49,0,1719081770,"~/.vim/vimrc"
-'7  62  0  ~/.vim/vimrc
-|4,55,62,0,1719081738,"~/.vim/vimrc"
-'8  62  0  ~/.vim/vimrc
-|4,56,62,0,1719081738,"~/.vim/vimrc"
-'9  62  0  ~/.vim/vimrc
-|4,57,62,0,1719081738,"~/.vim/vimrc"
+'0  19  49  ~/.vim/vimrc
+|4,48,19,49,1719111433,"~/.vim/vimrc"
+'1  34  42  ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
+|4,49,34,42,1719111385,"~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp"
+'2  25  119  ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
+|4,50,25,119,1719111369,"~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp"
+'3  25  119  ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
+|4,51,25,119,1719111369,"~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp"
+'4  18  0  ~/.vim/vimrc
+|4,52,18,0,1719111357,"~/.vim/vimrc"
+'5  18  0  ~/.vim/vimrc
+|4,53,18,0,1719111357,"~/.vim/vimrc"
+'6  13  12  ~/.vim/vimrc
+|4,54,13,12,1719111230,"~/.vim/vimrc"
+'7  13  12  ~/.vim/vimrc
+|4,55,13,12,1719111230,"~/.vim/vimrc"
+'8  13  12  ~/.vim/vimrc
+|4,56,13,12,1719111230,"~/.vim/vimrc"
+'9  13  12  ~/.vim/vimrc
+|4,57,13,12,1719111230,"~/.vim/vimrc"
 
 # Jumplist (newest first):
+-'  19  49  ~/.vim/vimrc
+|4,39,19,49,1719111433,"~/.vim/vimrc"
+-'  34  42  ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
+|4,39,34,42,1719111385,"~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp"
+-'  25  0  ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
+|4,39,25,0,1719111377,"~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp"
+-'  1  0  ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
+|4,39,1,0,1719111370,"~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp"
+-'  25  119  ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
+|4,39,25,119,1719111369,"~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1719081819,"~/.vim/vimrc"
--'  62  16  ~/.vim/vimrc
-|4,39,62,16,1719081778,"~/.vim/vimrc"
--'  62  16  ~/.vim/vimrc
-|4,39,62,16,1719081778,"~/.vim/vimrc"
+|4,39,1,0,1719111362,"~/.vim/vimrc"
+-'  18  0  ~/.vim/vimrc
+|4,39,18,0,1719111357,"~/.vim/vimrc"
+-'  18  0  ~/.vim/vimrc
+|4,39,18,0,1719111357,"~/.vim/vimrc"
+-'  18  0  ~/.vim/vimrc
+|4,39,18,0,1719111357,"~/.vim/vimrc"
+-'  19  26  ~/.vim/vimrc
+|4,39,19,26,1719111307,"~/.vim/vimrc"
+-'  19  26  ~/.vim/vimrc
+|4,39,19,26,1719111307,"~/.vim/vimrc"
+-'  54  16  ~/.vim/vimrc
+|4,39,54,16,1719111305,"~/.vim/vimrc"
+-'  54  16  ~/.vim/vimrc
+|4,39,54,16,1719111305,"~/.vim/vimrc"
+-'  54  16  ~/.vim/vimrc
+|4,39,54,16,1719111305,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1719081773,"~/.vim/vimrc"
--'  49  0  ~/.vim/vimrc
-|4,39,49,0,1719081770,"~/.vim/vimrc"
--'  49  0  ~/.vim/vimrc
-|4,39,49,0,1719081770,"~/.vim/vimrc"
--'  49  0  ~/.vim/vimrc
-|4,39,49,0,1719081770,"~/.vim/vimrc"
+|4,39,1,0,1719111270,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1719081763,"~/.vim/vimrc"
--'  62  0  ~/.vim/vimrc
-|4,39,62,0,1719081738,"~/.vim/vimrc"
--'  62  0  ~/.vim/vimrc
-|4,39,62,0,1719081738,"~/.vim/vimrc"
+|4,39,1,0,1719111270,"~/.vim/vimrc"
+-'  26  0  ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
+|4,39,26,0,1719111253,"~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp"
+-'  26  0  ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
+|4,39,26,0,1719111253,"~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp"
+-'  1  0  ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
+|4,39,1,0,1719111245,"~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp"
+-'  13  12  ~/.vim/vimrc
+|4,39,13,12,1719111230,"~/.vim/vimrc"
+-'  13  12  ~/.vim/vimrc
+|4,39,13,12,1719111230,"~/.vim/vimrc"
+-'  13  12  ~/.vim/vimrc
+|4,39,13,12,1719111230,"~/.vim/vimrc"
+-'  13  12  ~/.vim/vimrc
+|4,39,13,12,1719111230,"~/.vim/vimrc"
+-'  13  12  ~/.vim/vimrc
+|4,39,13,12,1719111230,"~/.vim/vimrc"
+-'  13  12  ~/.vim/vimrc
+|4,39,13,12,1719111230,"~/.vim/vimrc"
+-'  13  12  ~/.vim/vimrc
+|4,39,13,12,1719111230,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1719081727,"~/.vim/vimrc"
--'  49  19  ~/.vim/vimrc
-|4,39,49,19,1719081720,"~/.vim/vimrc"
--'  49  19  ~/.vim/vimrc
-|4,39,49,19,1719081720,"~/.vim/vimrc"
+|4,39,1,0,1719110696,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1719081647,"~/.vim/vimrc"
--'  48  15  ~/.vim/vimrc
-|4,39,48,15,1719081640,"~/.vim/vimrc"
--'  48  15  ~/.vim/vimrc
-|4,39,48,15,1719081640,"~/.vim/vimrc"
--'  48  15  ~/.vim/vimrc
-|4,39,48,15,1719081640,"~/.vim/vimrc"
--'  48  15  ~/.vim/vimrc
-|4,39,48,15,1719081640,"~/.vim/vimrc"
--'  48  15  ~/.vim/vimrc
-|4,39,48,15,1719081640,"~/.vim/vimrc"
--'  48  15  ~/.vim/vimrc
-|4,39,48,15,1719081640,"~/.vim/vimrc"
+|4,39,1,0,1719110696,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1719081611,"~/.vim/vimrc"
--'  61  16  ~/.vim/vimrc
-|4,39,61,16,1719081600,"~/.vim/vimrc"
--'  61  16  ~/.vim/vimrc
-|4,39,61,16,1719081600,"~/.vim/vimrc"
--'  61  16  ~/.vim/vimrc
-|4,39,61,16,1719081600,"~/.vim/vimrc"
--'  61  16  ~/.vim/vimrc
-|4,39,61,16,1719081600,"~/.vim/vimrc"
--'  62  16  ~/.vim/vimrc
-|4,39,62,16,1719081600,"~/.vim/vimrc"
--'  61  16  ~/.vim/vimrc
-|4,39,61,16,1719081600,"~/.vim/vimrc"
--'  61  16  ~/.vim/vimrc
-|4,39,61,16,1719081600,"~/.vim/vimrc"
+|4,39,1,0,1719110696,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1719081585,"~/.vim/vimrc"
--'  48  0  ~/.vim/vimrc
-|4,39,48,0,1719081581,"~/.vim/vimrc"
--'  48  0  ~/.vim/vimrc
-|4,39,48,0,1719081581,"~/.vim/vimrc"
--'  54  0  ~/.vim/vimrc
-|4,39,54,0,1719081548,"~/.vim/vimrc"
--'  53  0  ~/.vim/vimrc
-|4,39,53,0,1719081548,"~/.vim/vimrc"
--'  54  0  ~/.vim/vimrc
-|4,39,54,0,1719081548,"~/.vim/vimrc"
--'  53  0  ~/.vim/vimrc
-|4,39,53,0,1719081548,"~/.vim/vimrc"
--'  54  0  ~/.vim/vimrc
-|4,39,54,0,1719081548,"~/.vim/vimrc"
--'  53  0  ~/.vim/vimrc
-|4,39,53,0,1719081548,"~/.vim/vimrc"
--'  54  0  ~/.vim/vimrc
-|4,39,54,0,1719081548,"~/.vim/vimrc"
--'  53  0  ~/.vim/vimrc
-|4,39,53,0,1719081548,"~/.vim/vimrc"
--'  54  0  ~/.vim/vimrc
-|4,39,54,0,1719081548,"~/.vim/vimrc"
--'  53  0  ~/.vim/vimrc
-|4,39,53,0,1719081548,"~/.vim/vimrc"
--'  53  0  ~/.vim/vimrc
-|4,39,53,0,1719081548,"~/.vim/vimrc"
--'  53  0  ~/.vim/vimrc
-|4,39,53,0,1719081548,"~/.vim/vimrc"
--'  61  0  ~/.vim/vimrc
-|4,39,61,0,1719081534,"~/.vim/vimrc"
+|4,39,1,0,1719110696,"~/.vim/vimrc"
+-'  12  0  ~/.vim/vimrc
+|4,39,12,0,1719110693,"~/.vim/vimrc"
+-'  12  0  ~/.vim/vimrc
+|4,39,12,0,1719110693,"~/.vim/vimrc"
+-'  12  0  ~/.vim/vimrc
+|4,39,12,0,1719110693,"~/.vim/vimrc"
+-'  12  0  ~/.vim/vimrc
+|4,39,12,0,1719110693,"~/.vim/vimrc"
+-'  12  0  ~/.vim/vimrc
+|4,39,12,0,1719110693,"~/.vim/vimrc"
+-'  12  0  ~/.vim/vimrc
+|4,39,12,0,1719110693,"~/.vim/vimrc"
+-'  12  0  ~/.vim/vimrc
+|4,39,12,0,1719110693,"~/.vim/vimrc"
+-'  12  0  ~/.vim/vimrc
+|4,39,12,0,1719110693,"~/.vim/vimrc"
+-'  12  0  ~/.vim/vimrc
+|4,39,12,0,1719110693,"~/.vim/vimrc"
+-'  12  0  ~/.vim/vimrc
+|4,39,12,0,1719110693,"~/.vim/vimrc"
+-'  12  0  ~/.vim/vimrc
+|4,39,12,0,1719110693,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1719081526,"~/.vim/vimrc"
--'  48  34  ~/.vim/vimrc
-|4,39,48,34,1719081521,"~/.vim/vimrc"
--'  59  0  ~/.vim/vimrc
-|4,39,59,0,1719081473,"~/.vim/vimrc"
--'  58  0  ~/.vim/vimrc
-|4,39,58,0,1719081473,"~/.vim/vimrc"
--'  59  0  ~/.vim/vimrc
-|4,39,59,0,1719081473,"~/.vim/vimrc"
--'  58  0  ~/.vim/vimrc
-|4,39,58,0,1719081473,"~/.vim/vimrc"
--'  59  0  ~/.vim/vimrc
-|4,39,59,0,1719081473,"~/.vim/vimrc"
--'  58  0  ~/.vim/vimrc
-|4,39,58,0,1719081473,"~/.vim/vimrc"
--'  59  0  ~/.vim/vimrc
-|4,39,59,0,1719081473,"~/.vim/vimrc"
--'  58  0  ~/.vim/vimrc
-|4,39,58,0,1719081473,"~/.vim/vimrc"
--'  59  0  ~/.vim/vimrc
-|4,39,59,0,1719081473,"~/.vim/vimrc"
--'  58  0  ~/.vim/vimrc
-|4,39,58,0,1719081473,"~/.vim/vimrc"
--'  58  0  ~/.vim/vimrc
-|4,39,58,0,1719081473,"~/.vim/vimrc"
--'  58  0  ~/.vim/vimrc
-|4,39,58,0,1719081473,"~/.vim/vimrc"
--'  58  0  ~/.vim/vimrc
-|4,39,58,0,1719081473,"~/.vim/vimrc"
--'  63  0  ~/.vim/vimrc
-|4,39,63,0,1719081451,"~/.vim/vimrc"
--'  63  0  ~/.vim/vimrc
-|4,39,63,0,1719081451,"~/.vim/vimrc"
--'  63  0  ~/.vim/vimrc
-|4,39,63,0,1719081451,"~/.vim/vimrc"
--'  62  0  ~/.vim/vimrc
-|4,39,62,0,1719081451,"~/.vim/vimrc"
--'  62  0  ~/.vim/vimrc
-|4,39,62,0,1719081451,"~/.vim/vimrc"
--'  61  70  ~/.vim/vimrc
-|4,39,61,70,1719081439,"~/.vim/vimrc"
+|4,39,1,0,1719110658,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1719081429,"~/.vim/vimrc"
--'  38  5  ~/.vim/vimrc
-|4,39,38,5,1719081425,"~/.vim/vimrc"
--'  38  5  ~/.vim/vimrc
-|4,39,38,5,1719081425,"~/.vim/vimrc"
--'  38  5  ~/.vim/vimrc
-|4,39,38,5,1719081425,"~/.vim/vimrc"
--'  38  5  ~/.vim/vimrc
-|4,39,38,5,1719081425,"~/.vim/vimrc"
--'  38  5  ~/.vim/vimrc
-|4,39,38,5,1719081425,"~/.vim/vimrc"
--'  38  5  ~/.vim/vimrc
-|4,39,38,5,1719081425,"~/.vim/vimrc"
--'  38  5  ~/.vim/vimrc
-|4,39,38,5,1719081425,"~/.vim/vimrc"
--'  38  5  ~/.vim/vimrc
-|4,39,38,5,1719081425,"~/.vim/vimrc"
--'  38  5  ~/.vim/vimrc
-|4,39,38,5,1719081425,"~/.vim/vimrc"
--'  38  5  ~/.vim/vimrc
-|4,39,38,5,1719081425,"~/.vim/vimrc"
--'  42  16  ~/.vim/vimrc
-|4,39,42,16,1719081416,"~/.vim/vimrc"
--'  42  16  ~/.vim/vimrc
-|4,39,42,16,1719081416,"~/.vim/vimrc"
--'  42  16  ~/.vim/vimrc
-|4,39,42,16,1719081416,"~/.vim/vimrc"
--'  42  16  ~/.vim/vimrc
-|4,39,42,16,1719081416,"~/.vim/vimrc"
--'  42  16  ~/.vim/vimrc
-|4,39,42,16,1719081416,"~/.vim/vimrc"
--'  42  16  ~/.vim/vimrc
-|4,39,42,16,1719081416,"~/.vim/vimrc"
--'  42  16  ~/.vim/vimrc
-|4,39,42,16,1719081416,"~/.vim/vimrc"
--'  42  16  ~/.vim/vimrc
-|4,39,42,16,1719081416,"~/.vim/vimrc"
--'  42  16  ~/.vim/vimrc
-|4,39,42,16,1719081416,"~/.vim/vimrc"
--'  42  16  ~/.vim/vimrc
-|4,39,42,16,1719081416,"~/.vim/vimrc"
--'  57  13  ~/.vim/vimrc
-|4,39,57,13,1719081329,"~/.vim/vimrc"
--'  57  13  ~/.vim/vimrc
-|4,39,57,13,1719081329,"~/.vim/vimrc"
--'  57  13  ~/.vim/vimrc
-|4,39,57,13,1719081329,"~/.vim/vimrc"
--'  57  13  ~/.vim/vimrc
-|4,39,57,13,1719081329,"~/.vim/vimrc"
--'  58  13  ~/.vim/vimrc
-|4,39,58,13,1719081329,"~/.vim/vimrc"
--'  57  13  ~/.vim/vimrc
-|4,39,57,13,1719081329,"~/.vim/vimrc"
--'  57  13  ~/.vim/vimrc
-|4,39,57,13,1719081329,"~/.vim/vimrc"
--'  57  13  ~/.vim/vimrc
-|4,39,57,13,1719081329,"~/.vim/vimrc"
--'  57  13  ~/.vim/vimrc
-|4,39,57,13,1719081329,"~/.vim/vimrc"
+|4,39,1,0,1719110658,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1719081322,"~/.vim/vimrc"
--'  15  5  ~/.vim/vimrc
-|4,39,15,5,1719081314,"~/.vim/vimrc"
--'  15  5  ~/.vim/vimrc
-|4,39,15,5,1719081314,"~/.vim/vimrc"
--'  15  5  ~/.vim/vimrc
-|4,39,15,5,1719081314,"~/.vim/vimrc"
--'  15  5  ~/.vim/vimrc
-|4,39,15,5,1719081314,"~/.vim/vimrc"
+|4,39,1,0,1719110658,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1719110658,"~/.vim/vimrc"
+-'  45  12  ~/.vim/vimrc
+|4,39,45,12,1719110648,"~/.vim/vimrc"
+-'  48  12  ~/.vim/vimrc
+|4,39,48,12,1719110648,"~/.vim/vimrc"
+-'  45  12  ~/.vim/vimrc
+|4,39,45,12,1719110648,"~/.vim/vimrc"
+-'  48  12  ~/.vim/vimrc
+|4,39,48,12,1719110648,"~/.vim/vimrc"
+-'  45  12  ~/.vim/vimrc
+|4,39,45,12,1719110648,"~/.vim/vimrc"
+-'  48  12  ~/.vim/vimrc
+|4,39,48,12,1719110648,"~/.vim/vimrc"
+-'  45  12  ~/.vim/vimrc
+|4,39,45,12,1719110648,"~/.vim/vimrc"
+-'  48  12  ~/.vim/vimrc
+|4,39,48,12,1719110648,"~/.vim/vimrc"
+-'  45  12  ~/.vim/vimrc
+|4,39,45,12,1719110648,"~/.vim/vimrc"
+-'  48  12  ~/.vim/vimrc
+|4,39,48,12,1719110648,"~/.vim/vimrc"
+-'  45  12  ~/.vim/vimrc
+|4,39,45,12,1719110648,"~/.vim/vimrc"
+-'  48  12  ~/.vim/vimrc
+|4,39,48,12,1719110648,"~/.vim/vimrc"
+-'  45  12  ~/.vim/vimrc
+|4,39,45,12,1719110648,"~/.vim/vimrc"
+-'  48  12  ~/.vim/vimrc
+|4,39,48,12,1719110648,"~/.vim/vimrc"
+-'  45  12  ~/.vim/vimrc
+|4,39,45,12,1719110648,"~/.vim/vimrc"
+-'  48  12  ~/.vim/vimrc
+|4,39,48,12,1719110648,"~/.vim/vimrc"
+-'  45  12  ~/.vim/vimrc
+|4,39,45,12,1719110648,"~/.vim/vimrc"
+-'  48  12  ~/.vim/vimrc
+|4,39,48,12,1719110648,"~/.vim/vimrc"
+-'  45  12  ~/.vim/vimrc
+|4,39,45,12,1719110648,"~/.vim/vimrc"
+-'  48  12  ~/.vim/vimrc
+|4,39,48,12,1719110648,"~/.vim/vimrc"
+-'  45  12  ~/.vim/vimrc
+|4,39,45,12,1719110648,"~/.vim/vimrc"
+-'  48  12  ~/.vim/vimrc
+|4,39,48,12,1719110648,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1719110638,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1719110638,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1719110638,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1719110638,"~/.vim/vimrc"
+-'  51  12  ~/.vim/vimrc
+|4,39,51,12,1719110631,"~/.vim/vimrc"
+-'  49  12  ~/.vim/vimrc
+|4,39,49,12,1719110631,"~/.vim/vimrc"
+-'  51  12  ~/.vim/vimrc
+|4,39,51,12,1719110631,"~/.vim/vimrc"
+-'  49  12  ~/.vim/vimrc
+|4,39,49,12,1719110631,"~/.vim/vimrc"
+-'  51  12  ~/.vim/vimrc
+|4,39,51,12,1719110631,"~/.vim/vimrc"
+-'  49  12  ~/.vim/vimrc
+|4,39,49,12,1719110631,"~/.vim/vimrc"
+-'  51  12  ~/.vim/vimrc
+|4,39,51,12,1719110631,"~/.vim/vimrc"
+-'  49  12  ~/.vim/vimrc
+|4,39,49,12,1719110631,"~/.vim/vimrc"
+-'  51  12  ~/.vim/vimrc
+|4,39,51,12,1719110631,"~/.vim/vimrc"
+-'  49  12  ~/.vim/vimrc
+|4,39,49,12,1719110631,"~/.vim/vimrc"
+-'  51  12  ~/.vim/vimrc
+|4,39,51,12,1719110631,"~/.vim/vimrc"
+-'  49  12  ~/.vim/vimrc
+|4,39,49,12,1719110631,"~/.vim/vimrc"
+-'  51  12  ~/.vim/vimrc
+|4,39,51,12,1719110631,"~/.vim/vimrc"
+-'  49  12  ~/.vim/vimrc
+|4,39,49,12,1719110631,"~/.vim/vimrc"
+-'  51  12  ~/.vim/vimrc
+|4,39,51,12,1719110631,"~/.vim/vimrc"
+-'  49  12  ~/.vim/vimrc
+|4,39,49,12,1719110631,"~/.vim/vimrc"
+-'  51  12  ~/.vim/vimrc
+|4,39,51,12,1719110631,"~/.vim/vimrc"
+-'  49  12  ~/.vim/vimrc
+|4,39,49,12,1719110631,"~/.vim/vimrc"
+-'  51  12  ~/.vim/vimrc
+|4,39,51,12,1719110631,"~/.vim/vimrc"
+-'  49  12  ~/.vim/vimrc
+|4,39,49,12,1719110631,"~/.vim/vimrc"
+-'  51  12  ~/.vim/vimrc
+|4,39,51,12,1719110631,"~/.vim/vimrc"
+-'  49  12  ~/.vim/vimrc
+|4,39,49,12,1719110631,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1719110622,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1719110622,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1719110622,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1719110622,"~/.vim/vimrc"
+-'  40  12  ~/.vim/vimrc
+|4,39,40,12,1719110612,"~/.vim/vimrc"
+-'  40  12  ~/.vim/vimrc
+|4,39,40,12,1719110612,"~/.vim/vimrc"
+-'  40  12  ~/.vim/vimrc
+|4,39,40,12,1719110612,"~/.vim/vimrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/.vim/vimrc
-	*	1719081813	0
-	"	1	0
-	.	62	0
-	+	2	30
-	+	2	0
-	+	22	16
-	+	2	0
+> ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
+	*	1719111385	0
+	"	34	42
+	.	34	0
+	+	25	0
+	+	25	120
+	+	25	0
+	+	26	0
+	+	25	0
 	+	34	0
-	+	55	0
-	+	20	0
-	+	38	0
-	+	30	0
-	+	17	15
-	+	21	19
-	+	22	19
-	+	23	15
-	+	24	18
-	+	25	14
-	+	26	19
-	+	27	19
-	+	28	17
-	+	29	16
-	+	17	0
-	+	28	19
-	+	21	19
-	+	22	20
-	+	23	20
-	+	24	19
-	+	25	20
-	+	27	20
-	+	30	19
-	+	31	19
-	+	32	19
-	+	33	19
-	+	34	19
-	+	35	19
-	+	36	19
-	+	37	19
-	+	38	19
-	+	39	31
-	+	38	19
-	+	40	19
-	+	41	19
-	+	43	19
-	+	45	19
-	+	44	23
-	+	46	23
-	+	39	31
-	+	17	20
-	+	2	0
-	+	19	11
-	+	9	1
-	+	22	23
-	+	12	0
-	+	10	0
-	+	22	20
-	+	61	15
-	+	55	16
-	+	62	16
-	+	57	0
-	+	61	0
-	+	59	23
-	+	59	0
-	+	15	5
-	+	59	23
-	+	59	64
-	+	59	0
-	+	38	5
-	+	62	0
-	+	59	26
-	+	59	9
-	+	59	0
-	+	48	34
-	+	62	17
-	+	62	0
-	+	48	0
-	+	62	17
-	+	62	0
-	+	48	0
-	+	51	0
-	+	48	15
-	+	62	18
-	+	48	2
-	+	49	19
-	+	62	0
-	+	49	0
-	+	62	0
 
-> ~/.vim/NERD_tree_6
-	*	1719081111	0
+> ~/.vim/vimrc
+	*	1719111367	0
+	"	19	49
+	.	19	0
+	+	36	107
+	+	36	91
+	+	36	0
+	+	36	105
+	+	54	0
+	+	42	0
+	+	54	17
+	+	54	27
+	+	54	0
+	+	45	8
+	+	54	17
+	+	54	0
+	+	52	0
+	+	5	0
+	+	52	0
+	+	53	0
+	+	52	32
+	+	53	0
+	+	52	1
+	+	52	8
+	+	52	1
+	+	52	20
+	+	52	9
+	+	52	0
+	+	20	0
+	+	45	0
+	+	1	0
+	+	14	0
+	+	13	0
+	+	15	0
+	+	16	0
+	+	18	0
+	+	22	0
+	+	20	0
+	+	16	0
+	+	17	0
+	+	1	0
+	+	23	0
+	+	27	0
+	+	35	59
+	+	36	0
+	+	18	55
+	+	45	45
+	+	45	0
+	+	9	0
+	+	9	15
+	+	9	0
+	+	6	0
+	+	2	42
+	+	10	0
+	+	3	27
+	+	4	24
+	+	19	4
+	+	55	0
+	+	1	0
+	+	56	0
+	+	47	0
+	+	1	0
+	+	49	0
+	+	47	0
+	+	34	1
+	+	34	0
+	+	1	0
+	+	35	0
+	+	1	0
+	+	35	0
+	+	34	0
+	+	45	0
+	+	45	14
+	+	1	0
+	+	47	0
+	+	1	0
+	+	45	12
+	+	48	0
+	+	1	0
+	+	48	0
+	+	45	0
+	+	46	0
+	+	36	0
+	+	1	0
+	+	36	0
+	+	40	0
+	+	40	12
+	+	1	0
+	+	45	12
+	+	1	0
+	+	45	0
+	+	45	12
+	+	1	0
+	+	45	0
+	+	40	0
+	+	45	0
+	+	10	0
+	+	11	0
+	+	1	0
+	+	19	19
+	+	19	0
+	+	17	0
+	+	18	0
+	+	19	0
+
+> ~/.vim/src/buffer/buffer_pool_manager.cpp
+	*	1719110309	0
+	"	1	0
+
+> ~/.vim/NERD_tree_1
+	*	1719109110	0
 	"	4	0
 	.	1	0
 	+	1	0
 
-> ~/.vim/plugged/gocode/NERD_tree_2
-	*	1719080370	0
-	"	4	4
+> ~/.vim/NERD_tree_3
+	*	1719109105	0
+	"	13	0
 	.	1	0
 	+	1	0
 
-> ~/.vim/NERD_tree_1
-	*	1719080367	0
-	"	23	0
+> ~/.vim/命令移动时的宽度为
+	*	1719109088	0
+	"	1	0
+
+> ~/.vim/autoload/plug.vim
+	*	1719109080	0
+	"	1	0
+
+> ~/.vim/NERD_tree_2
+	*	1719108926	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/NERD_tree_6
+	*	1719108523	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/.vim/vimrc
+	*	1719108100	0
+	"	1	0
+
+> ~/.vim/plugged/gocode/NERD_tree_2
+	*	1719080370	0
+	"	4	4
 	.	1	0
 	+	1	0
 
@@ -609,10 +668,6 @@ $
 > ~/.vim/colors/molokai.vim
 	*	1719079975	0
 	"	1	0
-
-> ~/.vim/autoload/plug.vim
-	*	1719079971	0
-	"	2	0
 
 > /usr/java/apache-tomcat-8.5.100/webapps/web/WEB-INF/web.xml
 	*	1719078218	0
@@ -659,10 +714,6 @@ $
 	*	1719073184	0
 	"	1	0
 
-> ~/Github/myPrograms/bustub-private/src/buffer/buffer_pool_manager.cpp
-	*	1719068675	0
-	"	66	2
-
 > ~/JAVA/test/HelloWorld.java
 	*	1719067784	0
 	"	1	0
@@ -679,31 +730,4 @@ $
 
 > ~/vimrc
 	*	1719064491	0
-	"	1	0
-
-> ~/.tmux.conf
-	*	1719064456	0
-	"	1	0
-	^	7	48
-	.	8	0
-	+	7	48
-	+	8	0
-
-> ~/.vim/.vim/vimrc
-	*	1719063426	0
-	"	1	0
-
-> ~/HelloWorld.java
-	*	1719063235	0
-	"	1	0
-
-> ~/JAVA/test/TestProject/my-app/pom.xml
-	*	1719062723	0
-	"	1	0
-	.	47	0
-	+	49	0
-	+	47	0
-
-> ~/JAVA/test/TestProject/my-app/src/main/java/com/example/App.java
-	*	1719060336	0
 	"	1	0
